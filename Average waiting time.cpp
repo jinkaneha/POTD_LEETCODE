@@ -13,6 +13,7 @@ public:
             waiting_time=waiting_time+current_time-arrival_time+time_taking;
             current_time=current_time+time_taking;
         }
-        return waiting_time/n;        
+        return waiting_time/n;  
+              
     }
 };
